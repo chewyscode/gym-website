@@ -93,9 +93,11 @@ transition: all 0.3s ease-in;
 
 //White box
 .white-box{
-  border: 1px solid black;
+  border: 3px solid rgb(212, 204, 204);
   position: absolute;
   width:75%;
   background: none;
+ top:20%;
+ 
   color:white;
 }
