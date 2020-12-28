@@ -24,6 +24,11 @@ margin-bottom: 1rem;
         margin-bottom: 1rem;
         }
 
+.gym-heading{
+  color:$primary-color;
+ 
+}        
+
 //backgrounds
 .bg {
     &-primary{
@@ -76,6 +81,7 @@ transition: all 0.3s ease-in;
 .btn-primary{
     background:$primary-color;
     color:white;
+    
     &:hover{
         background:lighten($primary-color, 15%);
         color:$light-color;
@@ -89,15 +95,9 @@ transition: all 0.3s ease-in;
         color:$light-color;
     }
 }
-//End Of Buttons
 
-//White box
-.white-box{
-  border: 3px solid rgb(212, 204, 204);
-  position: absolute;
-  width:75%;
-  background: none;
- top:20%;
- 
-  color:white;
+.btn-gym{
+border-radius: 45px 45px 45px 45px;
 }
+
+//End Of Buttons
