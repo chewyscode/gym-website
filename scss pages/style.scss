@@ -116,6 +116,21 @@ height:100%;
 }
 //End of gym page
 
+
+
+//Membership Section
+.center{
+    text-align:center;
+}
+.membership-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:center;
+}
+
+
+//End of membership Section
+
 //Footer
 .footer{
     background:$primary-color;
