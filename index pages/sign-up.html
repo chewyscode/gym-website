@@ -41,12 +41,78 @@
         <div class="form-item">
             <input type="email" placeholder="Email address" required>
             </div>
-</form>
+            <div class="form-item">
+                <input type="text" placeholder="Password" required minlength="6">
+                </div>
+                <div class="form-item">
+                    <input type="text" placeholder="Confirm password" required minlength="6">
+                    </div>
 
+
+</form>
+<br>
+<div class="form-grid">
+<div class="Credit-card-info">
+    <h1>Add Credit/Debit card information</h1>
+   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa reprehenderit possimus nulla hic molestias quas!</p>
+   <form action="">
+    <small>Card number</small>
+    <div class="form-item card-number">
+    <input type="text" placeholder="Card Number" required>
+    </div>
+    <small>Cardholder's name</small>
+    <div class="form-item">
+        <input type="text" placeholder="Cardholder's Name">
+        </div>
+        <small>Select month and year</small>
+        <div class="form-item month-year">
+            
+            <select name="Month" id="">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+            </select>
+           
+            <select name="Year" id="" placeholder="Year">
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+            </select>
+                </div>
+                <small>CCV number</small>
+                <div class="form-item">
+                    
+                    <input type="text" placeholder="CCV" required minlength="6">
+                    </div>
+                    <br>
+                    <small>Select membership plan</small>
+                    <br>
+                    <br>
+                    <div class="options">
+                    <label for="Standard"><input id="Standard" type="radio" name="deal" value="Standard" class="deal">Standard</label>
+                    <label for="Deluxe"><input id="Deluxe" type="radio" name="deal" value="Deluxe" class="deal">Deluxe</label>
+                    <label for="Premium"><input id="Premium" type="radio" name="deal" value="Premium" class="deal">Premium</label>
+                    </div>
+
+</form>
+</div>
+<div class="credit-card-image">
+    <img src="../images/card.png" alt="" width="1vh">
+</div>
+<div class="buttons">
+    <br>
+    <a href="#" class="btn btn-primary">Sign Up Now</a>
+</div>
+</div>
 <small>Already have a membership? <a href="sign-in.html">Sign In</a></small>
 </div>
 <!--End of sign up section-->
 
+<br>
 
 <!--Footer-->
 <section class="footer">

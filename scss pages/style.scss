@@ -151,6 +151,33 @@ h1{
     
 }
 
+.form-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.credit-card-image{
+    width:50%;
+}
+
+.card-number{
+    width:100%;
+}
+.month-year{
+    width:50%;
+    align-items: center;
+margin:auto;
+justify-content: center;
+text-align:center;
+select{
+    padding:5px;
+    width:30%;
+}
+
+}
+small{
+    font-weight:bold;
+}
+
 //End of sign-up page
 
 //Sign In page
