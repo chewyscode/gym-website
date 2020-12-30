@@ -119,6 +119,15 @@ height:100%;
 
 
 //Membership Section
+.membership-section{
+position:relative;
+background: url('../images/membership\ page.jpg') no-repeat center center/cover;
+height:120vh;
+color:white;
+h1{
+    color:$primary-color;
+}
+}
 .center{
     text-align:center;
 }
