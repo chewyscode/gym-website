@@ -128,9 +128,7 @@ h1{
     color:$primary-color;
 }
 }
-.center{
-    text-align:center;
-}
+
 .membership-grid{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -189,6 +187,39 @@ small{
 }
 //End of sign-in page
 
+//Team page
+.team-grid{
+    background:rgb(230, 228, 228); 
+    width:90%;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    text-align:center;
+    
+    
+}
+.team-text{
+    padding-top:5rem;
+}
+
+.team-lead{
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    text-align:center;
+    p{
+        padding:10px;
+    }
+    
+}
+.profile-card{
+    padding-bottom:10px;
+}
+
+
+
+//End of team page
+
 
 //Footer
 .footer{
@@ -203,3 +234,8 @@ text-align:center;
     
 }
 //End of Footer
+
+
+//Media Queries
+
+//End of Media Queries
