@@ -238,10 +238,12 @@ text-align:center;
 
 
 //Media Queries
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
   //navbar
-
-  //end of navbar
+.navbar{
+    display:block;
+}
+//end of navbar
    
 
   //membership
